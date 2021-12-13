@@ -1,0 +1,38 @@
+html{
+    scroll-behavior: smooth;
+}
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('https://pipocasclub.com.br/wp-content/uploads/2019/10/netflix-3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.masthead2 {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('https://wallpapersfull.com/wallpapers/2019/wallpaper-as-cronicas-de-narnia-3d-522.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.estrelas input[type=radio] {
+    display: none;
+}
+.estrelas label i.fa:before {
+    content:'\f005';
+    color: #FC0;
+}
+.estrelas input[type=radio]:checked ~ label i.fa:before {
+    color: #CCC;
+}
+
+@media only screen and (max-width: 400px) {
+    .cards {
+        display: block;
+    }
+}
